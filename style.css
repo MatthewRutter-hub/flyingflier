@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #325cbf;
+    color: rgb(255, 148, 27);
     padding: 1em;
     width: 100%;
 }
@@ -21,7 +21,7 @@ nav a {
     text-decoration: none;
 }
 
-section.pinboard, section.calendar {
+section.pinboard {
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ section.pinboard, section.calendar {
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
-    width: 250px;
+    width: 550px;
 }
 
 .pin img {
@@ -42,7 +42,6 @@ section.pinboard, section.calendar {
     border-radius: 4px;
 }
 
-.calendar ul {
-    list-style-type: none;
-    padding: 0;
+.link {
+    padding: 10px;
 }
